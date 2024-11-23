@@ -5,7 +5,7 @@ colors and fonts:
     font: Roboto
     Hero and footer sections
         background color: #1f2937
-        main text: 48px #F9AF8 weight: 900
+        main text: 48px #F9FAF8 weight: 900
         hero secondary text, header link text: 18px, #E5E7EB
         header logo text: 24px #F9FAF8
     

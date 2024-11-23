@@ -1,5 +1,49 @@
-* {
+
+body {
     margin: 0;
-    padding: 0;
+    font-family: roboto;
+    font-size: 15px;
+    min-height: 100vh
 }
 
+/* box #1*/
+
+.container-one {
+    background-color: #1f2937;
+    /*consider redoing height 72px*/
+    
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.main-text {
+    font-size: 42px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+  .h-second-text {
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+ul a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+}
