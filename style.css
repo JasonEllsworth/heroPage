@@ -37,7 +37,7 @@ ul a {
     font-size: 14px;
 }
 
-button {
+.header-button {
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
@@ -49,10 +49,57 @@ button {
 }
 
 img {
-    
+    border: 5px solid #3882F6;
     max-width: 350px;
-    max-height: 250px;
+    max-height: 250px; 
     
 }
 
 /*box # 2*/
+
+.card {
+    
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+
+.random-info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.container-three {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style:  italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.container-4 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.call-to-action-butt {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.footer {
+    background-color:#1f2937;
+    color: #E5E7EB;
+}
