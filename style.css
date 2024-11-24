@@ -17,15 +17,15 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
-
-    
+    gap: 100px; 
     
 }
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
-    padding-right: 300px;
+
     
 }
 
@@ -34,7 +34,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 70px;
+    gap: 630px;
+    
 }
 
 .main-text {
@@ -46,14 +47,30 @@ body {
   .h-second-text {
     font-size: 14px;
     color: #E5E7EB;
+    flex-wrap: wrap;
+    max-width: 475px;
 }
 
 ul a {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 14px;
+    padding: 10px;
+    
 }
 
+.container-second-header {   
+    display: flex;
+    gap: 200px;
+    margin-bottom: 50px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
 .header-button {
     background-color: #3882F6;
     color: #F9FAF8;

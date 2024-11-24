@@ -27,11 +27,23 @@ complete landing page should consist of four sections.
     Box 1:
          will be where the nav and informational about the website will go.
 
+         -fix placeholder img
+         
+         only thing left is to flex everything.
+
     box 2:
         random information about the buisness
 
+        should have four boxes.
+        Each box should have a boarder
+        should have some sort of text underneath each box.
+
+        Only thing left is to flex everything to the center.
+
     box 3:
         A spot for reviews about the buisness
+
+        large 
 
     box 4:
         Call to action text.
