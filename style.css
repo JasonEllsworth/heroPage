@@ -3,21 +3,38 @@ body {
     margin: 0;
     font-family: roboto;
     font-size: 15px;
-    min-height: 100vh
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
 }
 
 /* box #1*/
 
 .container-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #1f2937;
-    /*consider redoing height 72px*/
+
+    
     
 }
-
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
+    padding-right: 300px;
+    
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
 }
 
 .main-text {
