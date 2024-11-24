@@ -47,3 +47,12 @@ button {
     font-size: 16px;
     border-radius: 12px;
 }
+
+img {
+    
+    max-width: 350px;
+    max-height: 250px;
+    
+}
+
+/*box # 2*/
