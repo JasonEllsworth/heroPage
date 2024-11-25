@@ -63,6 +63,7 @@ ul a {
     display: flex;
     gap: 200px;
     margin-bottom: 50px;
+    
 }
 
 .left-side {
@@ -90,24 +91,35 @@ img {
 }
 
 /*box # 2*/
+.card-area {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 50px;
+}
 
 .card {
-    
+    padding-right: 5px;
     width: 250px;
     height: 250px;
     text-align: center;
-    padding-bottom: 50px;
+    margin: 100px auto;
     
 }
 
 .random-info-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin-top: 50px;
 }
 
 .container-three {
     background-color: #E5E7EB;
+    
 }
 
 .quote {
