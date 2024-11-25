@@ -119,6 +119,12 @@ img {
 
 .container-three {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    
     
 }
 
@@ -127,11 +133,26 @@ img {
     font-style:  italic;
     font-weight: lighter;
     color: #1f2937;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 100px auto;
 }
 
 .container-4 {
     background-color: #3882F6;
     color: #F9FAF8;
+    display: flex;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+    padding: 100px auto;
+    
+    gap: 50px;
+    
+}
+
+.call-to-left {
+    margin: 50px;
 }
 
 .call-to-action-butt {
@@ -143,9 +164,17 @@ img {
     text-decoration: none;
     font-size: 16px;
     border-radius: 12px;
+    margin: 50px;
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:#1f2937;
     color: #E5E7EB;
+}
+
+.footer-text {
+    margin: 20px auto;
 }
